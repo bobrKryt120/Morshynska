@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    background: linear-gradient(#A1B5E2, #B9C9ED);
+}
+
+.logo {
+    font-size: 32px;
+    color: red;
+    font-family: consolas;
+    background: linear-gradient(#E5ECFB, #A1B5E2);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+header {
+    background: linear-gradient(#8A9FD5, #A1B5E2);
+    display: flex;
+    padding-left: 30px;
+}
+
+footer {
+    background: linear-gradient(#A1B5E2, #8A9FD5);
+}
