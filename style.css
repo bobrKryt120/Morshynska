@@ -23,6 +23,10 @@ header {
     padding: 15px;
 }
 
+main {
+    margin-top: 200px;
+}
+
 footer {
     background: linear-gradient(to bottom, #B2A3E4, #9E8CD7);
     height: 100px;
