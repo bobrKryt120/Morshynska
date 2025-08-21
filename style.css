@@ -1,10 +1,6 @@
 body {
     margin: 0px;
-    background: 
-        linear-gradient(to top, to right, transparent, #EBE5FC),
-        linear-gradient(to top, to left, transparent, #D9D0F6),
-        linear-gradient(to bottom, to left, transparent, #C6BAEE),
-        linear-gradient(to bottom, to right, transition, #B2A3E4);        
+    background: linear-gradient(to bottom, #D9D0F6, #B2A3E4);        
 }
 
 .logo {
