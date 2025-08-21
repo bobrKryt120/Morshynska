@@ -4,9 +4,6 @@ body {
 }
 
 .logo {
-    font-size: 32px;
-    color: red;
-    font-family: consolas;
     background-color: white;
     padding: 7px;
     border-radius: 15px;
