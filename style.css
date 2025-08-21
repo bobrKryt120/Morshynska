@@ -16,9 +16,11 @@ header {
     background: linear-gradient(to top, #EBE5FC, #D9D0F6);
     display: flex;
     padding-left: 30px;
+    border-bottom: 1px solid white;
 }
 
 footer {
     background: linear-gradient(to bottom, #B2A3E4, #9E8CD7);
     height: 100px;
+    border-top: 1px solid white;
 }
