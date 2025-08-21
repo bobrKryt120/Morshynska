@@ -1,8 +1,6 @@
 body {
     margin: 0px;
     background: linear-gradient(to bottom, #D9D0F6, #B2A3E4);
-    font-family: Jost;
-    font-weight: 200;
 }
 
 .logo {
@@ -39,4 +37,7 @@ footer {
 .top-title h1 {
     font-size: 64px;
     color: white;
+    margin: 15px;
+    font-family: Jost;
+    font-weight: 200;
 }
