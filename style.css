@@ -29,7 +29,8 @@ footer {
 }
 
 .top-title {
-    background: linear-gradient(to top right, #95E88C, #A9EFA2);
+    background: url("https://www.morshynska.ua/products/wp-content/uploads/img6.jpg");
+    background-size: 100%;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
