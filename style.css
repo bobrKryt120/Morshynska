@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background: linear-gradient(to bottom, #D9D0F6, #B2A3E4);
+    font-family: CORBEL;
 }
 
 .logo {
@@ -16,10 +17,14 @@ header {
     padding-left: 30px;
     border-bottom: 1px solid white;
     padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 5;
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 footer {
@@ -30,22 +35,107 @@ footer {
 
 .top-title {
     background: url("https://www.morshynska.ua/products/wp-content/uploads/img6.jpg");
-    background-size: 100%;
+    background-size: cover;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+    padding: 50px;
 }
 
-.top-title h1 {
+.top-title h1, .top-title-spec h1 {
     font-size: 64px;
     color: white;
     margin: 15px;
-    font-family: Montserrat;
-    font-weight: 200;
+    font-weight: 100;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .opys-text {
     color: white;
-    font-weight: 200;
-    font-family: Montserrat;
+    font-weight: 100;
     font-size: 24px;
+    width: 850px;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.first-art {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px 0 50px 0;
+    background: linear-gradient(to top right, #D3FACF, #95E88C);
+}
+
+.opys {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottle {
+    height: 350px;
+}
+
+.background-bottle {
+    background: linear-gradient(to bottom left, #EBE5FC, #B2A3E4);
+    padding: 50px 125px 50px 125px;
+    border-radius: 0 0 15px 15px;
+}
+
+.bottle:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.opys p {
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    background: linear-gradient(to top left, #EBE5FC, #B2A3E4);
+    border-radius: 15px;
+    padding: 5px;
+    width: 335px;
+    text-align: center;
+}
+
+.zamovyty {
+    font-size: 32px;
+    color: white;
+    background: linear-gradient(to top right, #FF9F9A, #FFD5D3);
+    text-decoration: none;
+    width: 335px;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+}
+
+.zamovyty:hover {
+    transition: 0.5s;
+    text-shadow:
+       1px 1px 1px #FF9F9A,
+       5px 5px 15px #FFE7E6;
+}
+
+.top-title-spec {
+    background: url("https://www.morshynska.ua/products/wp-content/uploads/img8.jpg");
+    background-position-y: center;
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px;
+}
+
+[src="https://www.morshynska.ua/products/wp-content/uploads/img8.jpg"] {
+    border-radius: 15px;
 }
