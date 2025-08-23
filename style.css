@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
     background: linear-gradient(to bottom, #D9D0F6, #B2A3E4);
     font-family: CORBEL;
 }
@@ -14,13 +14,63 @@ body {
 header {
     background: linear-gradient(to top, #EBE5FC, #D9D0F6);
     display: flex;
-    padding-left: 30px;
+    justify-content: space-between;
     border-bottom: 1px solid white;
-    padding: 15px;
+    padding: 15px 30px 15px 30px;
     position: fixed;
     width: 100%;
-    top: 0px;
+    top: 0;
     z-index: 5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.button {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #ADA4CE;
+    text-shadow: 1px 1px 0 #55458F;
+    text-decoration: none;
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    transition: 0.5s;
+    color: #CCC7E1;
+    text-shadow:
+            0 0 15px #55458F,
+            0 0 5px #55458F,
+            1px 1px 0 #55458F;
+}
+
+.button-spec {
+    border: 1px solid #ADA4CE;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #ADA4CE;
+    text-shadow: 1px 1px 0 #55458F;
+    text-decoration: none;
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+
+.button-spec:hover{
+    transition: 0.5s;
+    color: #CCC7E1;
+    text-shadow:
+            0 0 15px #55458F,
+            0 0 5px #55458F,
+            1px 1px 0 #55458F;
 }
 
 main {
@@ -29,8 +79,11 @@ main {
 
 footer {
     background: linear-gradient(to bottom, #B2A3E4, #9E8CD7);
-    height: 100px;
+    height: auto;
     border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 25px 75px;
 }
 
 .top-title {
@@ -41,7 +94,7 @@ footer {
     padding: 50px;
 }
 
-.top-title h1, .top-title-spec h1 {
+.top-title h1, .top-title-spec h1, .top-title-spec1 h1, .top-title-spec2 h1, .top-title-spec3 h1 {
     font-size: 64px;
     color: white;
     margin: 15px;
@@ -71,7 +124,7 @@ footer {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 50px 0 50px 0;
-    background: linear-gradient(to top right, #D3FACF, #95E88C);
+    background: linear-gradient(to top right, #ACDFAC, #45A545);
 }
 
 .opys {
@@ -136,6 +189,156 @@ footer {
     padding: 50px;
 }
 
-[src="https://www.morshynska.ua/products/wp-content/uploads/img8.jpg"] {
+[src="https://www.morshynska.ua/products/wp-content/uploads/img8.jpg"], [src="https://www.morshynska.ua/products/wp-content/uploads/Sport-2025_1360x680px_desktop-960x480.png"], [src="https://www.morshynska.ua/products/wp-content/uploads/VOLYA-1.png"] {
     border-radius: 15px;
+}
+
+.spec-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.zamovyty-spec {
+    font-size: 32px;
+    color: white;
+    background: linear-gradient(to top right, #FF9F9A, #FFD5D3);
+    text-decoration: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+}
+
+.zamovyty-spec:hover {
+    transition: 0.5s;
+    text-shadow:
+       1px 1px 1px #FF9F9A,
+       5px 5px 15px #FFE7E6;
+}
+
+.details {
+    font-size: 32px;
+    color: white;
+    background: linear-gradient(to top left, #B2A3E4, #EBE5FC);
+    text-decoration: none;
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+}
+
+.details:hover {
+    transition: 0.5s;
+    text-shadow:
+       1px 1px 1px #D9D0F6,
+       5px 5px 15px #EBE5FC;
+}
+
+.background-bottle-spec{
+    background: linear-gradient(to bottom left, #EBE5FC, #B2A3E4);
+    padding: 50px 60px 50px 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+.text-spec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-spec p {
+    width: auto;
+}
+
+.top-title-spec1 {
+    background: url("https://www.morshynska.ua/products/wp-content/uploads/1440x215.jpg");
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px;
+}
+
+.bottle-spec {
+    height: 275px;
+}
+
+.bottle-spec:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.first-art-spec {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px 0 50px 0;
+    background: linear-gradient(to top right, #FFEE9A, #FFD300);
+}
+
+.top-title-spec2 {
+    background: url("https://www.morshynska.ua/products/wp-content/uploads/banner_polosa_1361x680-1.jpg");
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px;
+    background-position-y: 50%;
+}
+
+.first-art-spec1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px 0 50px 0;
+    background: linear-gradient(to top right, #9BCEF5, #2699F2);
+}
+
+.top-title-spec3 {
+    background: url("https://www.morshynska.ua/products/wp-content/uploads/img13.jpg");
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px;
+}
+
+.opys-spec {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-bottle-spec1 {
+    background: linear-gradient(to bottom left, #EBE5FC, #B2A3E4);
+    padding: 50px 60px 50px 60px;
+    border-radius: 15px;
+}
+
+.bottle-spec1 {
+    height: 350px;
+}
+
+.first-art-spec2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px 0 50px 0;
+    background: linear-gradient(to top right, #FF8F8F, #E92525);
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    margin-bottom: 25px;
 }
